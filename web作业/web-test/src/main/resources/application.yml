@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-mybatis
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=XSQL;user=root1;password=root;trustServerCertificate=true
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: root1
+    password: root
+
+server:
+#  端口号
+  port: 8090
